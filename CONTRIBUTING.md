@@ -53,4 +53,6 @@ Related awesome-list entries use `kind: "awesome_list"` and live in the regular 
 
 GitHub stars and last-commit dates are static snapshots in the optional `metrics` field. Refresh them before release with `python3 scripts/update_github_metrics.py`; do not add live per-entry badge URLs.
 
+If a repository is inaccessible, first check for a canonical move. For a confirmed unresolved case, add a dated availability caveat to the entry and use `--skip-repo OWNER/REPO` (repeatable) to refresh the rest. This preserves its previous metrics and snapshot date and prints a warning; it does not mark them as freshly verified. Unknown skips and all unskipped API errors still fail the refresh without writing the data file.
+
 The badges are generated automatically by `gen_readme.py`; do not paste badge Markdown by hand in the source data.

@@ -138,6 +138,8 @@ def main() -> int:
     parser = ArgumentParser(description=__doc__)
     parser.add_argument("--data", type=Path, default=DEFAULT_DATA,
                         help="structured JSON data path")
+    parser.add_argument("--skip-repo", action="append", default=[], metavar="OWNER/REPO",
+                        help="explicitly retain a repository's old metrics (repeatable)")
     args = parser.parse_args()
 
     try:
@@ -147,13 +149,24 @@ def main() -> int:
         repos = list(dict.fromkeys(
             entry["repo"] for entry in iter_entries(data) if entry.get("repo")
         ))
+        skipped = set(args.skip_repo)
+        unknown = skipped - set(repos)
+        if unknown:
+            raise MetricError("Cannot skip unlisted repositories: " + ", ".join(sorted(unknown)))
+        selected = [repo for repo in repos if repo not in skipped]
+        if not selected:
+            raise MetricError("No repositories selected for refresh.")
         snapshot = datetime.now(UTC).date().isoformat()
-        metrics = fetch_metrics(github_token(), repos, snapshot)
+        metrics = fetch_metrics(github_token(), selected, snapshot)
 
         for entry in iter_entries(data):
             repo = entry.get("repo")
-            if repo:
+            if repo in metrics:
                 entry["metrics"] = metrics[repo]
+            elif repo in skipped:
+                previous = entry.get("metrics", {}).get("snapshot", "unavailable")
+                print(f"Skipped {repo}; existing metrics retained (snapshot {previous}).",
+                      file=sys.stderr)
 
         with args.data.open("w", encoding="utf-8") as handle:
             json.dump(data, handle, ensure_ascii=False, indent=2)
@@ -163,7 +176,8 @@ def main() -> int:
         print(f"metrics error: {exc}", file=sys.stderr)
         return 2
 
-    print(f"Updated {len(repos)} GitHub metric snapshots in {args.data}.")
+    print(f"Updated {len(metrics)} GitHub metric snapshots in {args.data}; "
+          f"explicitly skipped {len(skipped)}.")
     return 0
 
 

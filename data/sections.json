@@ -10,12 +10,20 @@
           "name": "Metis",
           "repo": "arm/metis",
           "org": "Arm",
-          "status": ["open_source"],
+          "status": [
+            "open_source"
+          ],
           "license": "Apache-2.0",
-          "flags": ["model_dependent"],
+          "flags": [
+            "model_dependent"
+          ],
           "desc": "Security-review framework that triages external SARIF findings using source-navigation evidence, optional C/C++ code graphs, and structured LLM decisions.",
           "note": "**Caveat:** hosted providers receive selected source and evidence and require credentials; local providers need separately provisioned weights, and indexing may use a separate embedding provider. Debug traces can contain sensitive content. Model verdicts are not proof of exploitability or grounds for automatic suppression.",
-          "metrics": {"stars": 872, "updated": "2026-09-30", "snapshot": "2026-10-05"}
+          "metrics": {
+            "stars": 877,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
+          }
         },
         {
           "name": "nuclei-autotriage",
@@ -42,7 +50,7 @@
           "metrics": {
             "stars": 1,
             "updated": "2026-05-25",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -60,9 +68,9 @@
             }
           ],
           "metrics": {
-            "stars": 221,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 268,
+            "updated": "2026-09-28",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -73,9 +81,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 97,
+            "stars": 101,
             "updated": "2026-05-20",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -88,9 +96,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 307,
+            "stars": 366,
             "updated": "2026-04-14",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -113,7 +121,7 @@
           "metrics": {
             "stars": 11,
             "updated": "2025-08-01",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -129,7 +137,7 @@
           "metrics": {
             "stars": 0,
             "updated": "2026-02-23",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         }
       ],
@@ -156,9 +164,9 @@
               "desc": "Local CLI that inventories AI-agent installations, MCP configurations, hooks, and extensions, and reports credential-shaped values and configuration drift.",
               "note": "**Caveat:** configuration inventory, not runtime monitoring or enforcement; exposure labels are heuristics, and coverage depends on known locations and readable files. Detector errors can leave gaps even when the strict-mode exit code is clean; explicit report options write local files.",
               "metrics": {
-                "stars": 158,
+                "stars": 163,
                 "updated": "2026-09-21",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               },
               "sources": [
                 {
@@ -180,9 +188,9 @@
               "desc": "Verifies AI artifacts, live-system checks, and recorded agent traces, including evidence of unapproved side effects, outside the request path.",
               "note": "**Caveat:** beta; trace checks depend on complete, trustworthy evidence and do not enforce tool calls. Built-in artifact checks are local, while active probes contact configured targets and optional collectors receive reports. Not a general SAST scanner or compliance certification.",
               "metrics": {
-                "stars": 145,
-                "updated": "2026-10-05",
-                "snapshot": "2026-10-05"
+                "stars": 272,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -236,7 +244,7 @@
               "metrics": {
                 "stars": 15,
                 "updated": "2026-07-15",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -266,9 +274,9 @@
                 }
               ],
               "metrics": {
-                "stars": 6789,
-                "updated": "2026-10-08",
-                "snapshot": "2026-10-08"
+                "stars": 6847,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -298,9 +306,9 @@
                 }
               ],
               "metrics": {
-                "stars": 14696,
-                "updated": "2026-08-15",
-                "snapshot": "2026-08-17"
+                "stars": 20087,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -325,9 +333,9 @@
                 }
               ],
               "metrics": {
-                "stars": 96,
-                "updated": "2026-08-07",
-                "snapshot": "2026-08-17"
+                "stars": 98,
+                "updated": "2026-10-08",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -353,9 +361,9 @@
                 }
               ],
               "metrics": {
-                "stars": 134,
-                "updated": "2026-10-02",
-                "snapshot": "2026-10-03"
+                "stars": 140,
+                "updated": "2026-10-07",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -381,9 +389,9 @@
                 }
               ],
               "metrics": {
-                "stars": 120,
+                "stars": 124,
                 "updated": "2026-03-27",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -412,9 +420,9 @@
                 }
               ],
               "metrics": {
-                "stars": 86,
-                "updated": "2026-08-12",
-                "snapshot": "2026-08-17"
+                "stars": 93,
+                "updated": "2026-09-10",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -440,9 +448,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2913,
-                "updated": "2026-08-13",
-                "snapshot": "2026-08-17"
+                "stars": 3132,
+                "updated": "2026-10-06",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -464,9 +472,9 @@
                 }
               ],
               "metrics": {
-                "stars": 28,
-                "updated": "2026-06-07",
-                "snapshot": "2026-08-17"
+                "stars": 30,
+                "updated": "2026-09-16",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -487,9 +495,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1070,
-                "updated": "2026-07-22",
-                "snapshot": "2026-08-17"
+                "stars": 1278,
+                "updated": "2026-09-10",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -513,9 +521,9 @@
                 }
               ],
               "metrics": {
-                "stars": 155,
-                "updated": "2026-08-08",
-                "snapshot": "2026-08-17"
+                "stars": 191,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -541,9 +549,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2440,
-                "updated": "2026-08-04",
-                "snapshot": "2026-08-17"
+                "stars": 2596,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -572,9 +580,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1037,
-                "updated": "2026-08-07",
-                "snapshot": "2026-08-17"
+                "stars": 1091,
+                "updated": "2026-10-07",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -597,7 +605,7 @@
               "metrics": {
                 "stars": 6,
                 "updated": "2026-07-29",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -625,9 +633,9 @@
                 }
               ],
               "metrics": {
-                "stars": 176,
-                "updated": "2026-08-15",
-                "snapshot": "2026-08-17"
+                "stars": 142,
+                "updated": "2026-10-01",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -639,9 +647,9 @@
                 "commercial_open"
               ],
               "metrics": {
-                "stars": 1036,
+                "stars": 1059,
                 "updated": "2025-11-27",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -670,9 +678,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 12,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -698,9 +706,9 @@
                 "early_stage"
               ],
               "metrics": {
-                "stars": 4,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 10,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -720,7 +728,7 @@
               "metrics": {
                 "stars": 23,
                 "updated": "2026-07-27",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -743,9 +751,9 @@
                 }
               ],
               "metrics": {
-                "stars": 163,
+                "stars": 166,
                 "updated": "2026-04-16",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -772,9 +780,9 @@
                 }
               ],
               "metrics": {
-                "stars": 827,
-                "updated": "2026-08-24",
-                "snapshot": "2026-08-24"
+                "stars": 858,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -802,9 +810,9 @@
                 }
               ],
               "metrics": {
-                "stars": 343,
+                "stars": 377,
                 "updated": "2026-06-11",
-                "snapshot": "2026-08-24"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -828,9 +836,9 @@
                 }
               ],
               "metrics": {
-                "stars": 502,
+                "stars": 510,
                 "updated": "2026-04-17",
-                "snapshot": "2026-08-24"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -854,9 +862,9 @@
                 }
               ],
               "metrics": {
-                "stars": 25,
-                "updated": "2026-08-25",
-                "snapshot": "2026-08-30"
+                "stars": 27,
+                "updated": "2026-09-08",
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -879,9 +887,9 @@
               "desc": "Repository prompt-injection benchmark with coding tasks, attack carriers, defenses, and separate scoring of attack attempts, observed outcomes, and task utility.",
               "note": "**Caveat:** its subprocess workspace is not an OS sandbox: allowing Python or pytest does not prevent host-file access or networking. Use a separate disposable environment without secrets; marker-based outcomes and model behavior are not proof of production isolation.",
               "metrics": {
-                "stars": 70,
+                "stars": 71,
                 "updated": "2026-10-03",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -898,9 +906,9 @@
               ],
               "note": "— **note:** framework and ruleset, not a deterministic scanner or runtime enforcement boundary; repository content uses CC BY 4.0 rather than a conventional software license.",
               "metrics": {
-                "stars": 338,
-                "updated": "2026-09-18",
-                "snapshot": "2026-09-21"
+                "stars": 353,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -954,9 +962,9 @@
                 }
               ],
               "metrics": {
-                "stars": 17,
+                "stars": 18,
                 "updated": "2026-07-26",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -982,9 +990,9 @@
                 }
               ],
               "metrics": {
-                "stars": 371,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 412,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1011,9 +1019,9 @@
                 }
               ],
               "metrics": {
-                "stars": 5962,
-                "updated": "2026-08-12",
-                "snapshot": "2026-08-17"
+                "stars": 6421,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1039,9 +1047,9 @@
                 }
               ],
               "metrics": {
-                "stars": 835,
+                "stars": 831,
                 "updated": "2025-04-28",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1063,9 +1071,9 @@
                 }
               ],
               "metrics": {
-                "stars": 28060,
-                "updated": "2026-08-08",
-                "snapshot": "2026-08-17"
+                "stars": 34338,
+                "updated": "2026-08-31",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1090,9 +1098,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3630,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 5057,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1114,9 +1122,9 @@
                 }
               ],
               "metrics": {
-                "stars": 753,
+                "stars": 913,
                 "updated": "2026-06-02",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1147,9 +1155,9 @@
                 }
               ],
               "metrics": {
-                "stars": 35,
+                "stars": 38,
                 "updated": "2026-08-09",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1176,9 +1184,9 @@
                 }
               ],
               "metrics": {
-                "stars": 285,
-                "updated": "2026-04-16",
-                "snapshot": "2026-08-17"
+                "stars": 312,
+                "updated": "2026-09-30",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1206,9 +1214,9 @@
                 }
               ],
               "metrics": {
-                "stars": 91,
+                "stars": 99,
                 "updated": "2026-07-01",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1243,9 +1251,9 @@
                 }
               ],
               "metrics": {
-                "stars": 429,
-                "updated": "2026-07-30",
-                "snapshot": "2026-08-17"
+                "stars": 552,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1272,9 +1280,9 @@
                 }
               ],
               "metrics": {
-                "stars": 49,
+                "stars": 55,
                 "updated": "2026-07-27",
-                "snapshot": "2026-08-30"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -1297,9 +1305,9 @@
               "desc": "Rust information-flow policy engine and agent-tool runtime that tracks trajectory labels and effects and binds approvals to actions using recorded events.",
               "note": "**Caveat:** preview/RFC with evolving interfaces. Policy evaluation is deterministic for fixed policy and recorded evidence, not for whole-agent behavior; protection requires correct tool contracts, trusted labels, and complete mediation. Configured annotation authorities may use LLMs, and project-run benchmarks do not establish universal prompt-injection or exfiltration prevention.",
               "metrics": {
-                "stars": 1427,
-                "updated": "2026-10-05",
-                "snapshot": "2026-10-05"
+                "stars": 1556,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               },
               "sources": [
                 {
@@ -1324,7 +1332,7 @@
                 "telemetry"
               ],
               "desc": "Rust command wrapper that applies native OS containment to coding-agent subprocesses through Linux Landlock/namespaces and platform-specific sandbox backends.",
-              "note": "**Caveat:** guarantees vary by OS and selected tier: Linux FULL requires kernel support, while FS-ONLY lacks mount/PID/network namespaces and has descendant-cleanup limits. Allowed paths, environment values, and network destinations remain agent capabilities; this is not semantic prompt-injection protection. Optional telemetry is opt-in, and release binaries and escape resistance were not independently verified.",
+              "note": "**Caveat:** repository returned HTTP 404 on 2026-10-13; availability is unconfirmed and metrics retain the 2026-10-05 snapshot. Guarantees vary by OS and selected tier: Linux FULL requires kernel support, while FS-ONLY lacks mount/PID/network namespaces and has descendant-cleanup limits. Allowed paths, environment values, and network destinations remain agent capabilities; this is not semantic prompt-injection protection. Optional telemetry is opt-in, and release binaries and escape resistance were not independently verified.",
               "metrics": {
                 "stars": 45,
                 "updated": "2026-10-05",
@@ -1352,9 +1360,9 @@
               "desc": "Spring security components for MCP authentication, JWT audience validation, principal-bound sessions, and transport Origin/Host checks.",
               "note": "**Caveat:** match library and Spring AI versions and the supported transport/stack combination. Operators must configure issuers, scopes, and application authorization; these controls do not detect prompt injection.",
               "metrics": {
-                "stars": 117,
+                "stars": 118,
                 "updated": "2026-09-20",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -1377,9 +1385,9 @@
               "desc": "Coding-agent sandbox runner with multiple backends, credential-brokering integrations, and a copy/diff/apply workflow for reviewing workspace changes.",
               "note": "**Caveat:** public beta; isolation depends on the backend and configuration. Select network isolation explicitly, avoid privileged modes, and review mounts; agents without broker support receive mounted credentials, and hosted agents still send context to their providers.",
               "metrics": {
-                "stars": 216,
-                "updated": "2026-08-21",
-                "snapshot": "2026-10-05"
+                "stars": 219,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1398,7 +1406,7 @@
               "metrics": {
                 "stars": 32,
                 "updated": "2026-09-24",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1414,9 +1422,9 @@
               "desc": "Container-based coding-agent environment with proxy-mediated egress policies and server-side credential injection.",
               "note": "**Caveat:** the reviewed firewall permits the detected Docker host subnet, not only the proxy, and has no IPv6 rules; proxy enforcement is inactive outside enforce mode. Review IPv6, neighboring services, writable mounts, and the IDE/control plane rather than assuming complete network or host isolation.",
               "metrics": {
-                "stars": 208,
-                "updated": "2026-09-26",
-                "snapshot": "2026-10-05"
+                "stars": 210,
+                "updated": "2026-10-11",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1433,19 +1441,25 @@
               "desc": "Local Go gateway that extracts tool calls from supported model API responses and applies rules before forwarding them to an agent.",
               "note": "**Caveat:** source-available under Elastic License 2.0, including managed-service restrictions, not a permissive OSS license. Only intercepted supported paths are covered; parse failures can pass the original body through. The sample forwards to OpenRouter, disables local telemetry, and leaves the storage encryption key empty; review provider disclosure and any enabled local records.",
               "metrics": {
-                "stars": 440,
+                "stars": 439,
                 "updated": "2026-03-30",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
               "name": "Agent Safehouse",
               "repo": "eugene1g/agent-safehouse",
-              "status": ["open_source"],
+              "status": [
+                "open_source"
+              ],
               "license": "Apache-2.0",
               "desc": "macOS launcher that assembles Seatbelt sandbox-exec profiles to scope coding agents' filesystem and integration access.",
               "note": "**Caveat:** macOS-only hardening, not a VM or prompt-injection detector. The default profile permits inbound and outbound networking; exfiltration prevention is explicitly out of scope. Granted workspaces and integrations remain accessible, and launched agents retain their own credential, billing, and network behavior.",
-              "metrics": {"stars": 2092, "updated": "2026-09-30", "snapshot": "2026-10-05"}
+              "metrics": {
+                "stars": 2104,
+                "updated": "2026-09-30",
+                "snapshot": "2026-10-13"
+              }
             },
             {
               "name": "OpenShell",
@@ -1469,9 +1483,9 @@
                 }
               ],
               "metrics": {
-                "stars": 8715,
-                "updated": "2026-09-21",
-                "snapshot": "2026-09-21"
+                "stars": 16028,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1485,9 +1499,9 @@
               ],
               "note": "— **note:** monitoring is the default posture; blocking is opt-in, limited to supported synchronous pre-action hooks, and the shipped rules are monitor-only until operators explicitly configure enforcement.",
               "metrics": {
-                "stars": 1069,
-                "updated": "2026-09-15",
-                "snapshot": "2026-09-21"
+                "stars": 1109,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1501,9 +1515,9 @@
               ],
               "note": "— **note:** the shell shim bypasses policy for non-TTY stdin unless `--force` is used, which is critical for headless agents and CI. Linux is the production target; native macOS enforcement is alpha and native Windows drivers are not yet production-ready.",
               "metrics": {
-                "stars": 385,
+                "stars": 393,
                 "updated": "2026-09-15",
-                "snapshot": "2026-09-21"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1521,9 +1535,9 @@
               ],
               "note": "— **note:** APIs and behavior are explicitly experimental; `workspace-mode=direct` bypasses snapshot isolation and writes directly to the workspace, so it is suitable only for already-trusted interactive work.",
               "metrics": {
-                "stars": 72,
-                "updated": "2026-09-18",
-                "snapshot": "2026-09-21"
+                "stars": 77,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1540,9 +1554,9 @@
               ],
               "note": "— **note:** deny-by-default applies to `greywall`; `greywatch` is intentionally permissive and records rather than blocks activity. Verify the effective platform backend and selected mode before treating it as an enforcement boundary.",
               "metrics": {
-                "stars": 298,
+                "stars": 309,
                 "updated": "2026-08-13",
-                "snapshot": "2026-09-21"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1569,9 +1583,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3687,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 4467,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1597,9 +1611,9 @@
                 }
               ],
               "metrics": {
-                "stars": 733,
-                "updated": "2026-10-02",
-                "snapshot": "2026-10-03"
+                "stars": 748,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1623,9 +1637,9 @@
                 }
               ],
               "metrics": {
-                "stars": 114,
-                "updated": "2026-09-06",
-                "snapshot": "2026-09-07"
+                "stars": 131,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1658,9 +1672,9 @@
                 }
               ],
               "metrics": {
-                "stars": 681,
-                "updated": "2026-08-15",
-                "snapshot": "2026-08-17"
+                "stars": 692,
+                "updated": "2026-10-07",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1682,9 +1696,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2019,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 2276,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1706,9 +1720,9 @@
                 }
               ],
               "metrics": {
-                "stars": 796,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 922,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1736,9 +1750,9 @@
                 }
               ],
               "metrics": {
-                "stars": 216,
-                "updated": "2026-09-27",
-                "snapshot": "2026-09-27"
+                "stars": 220,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1767,9 +1781,9 @@
                 }
               ],
               "metrics": {
-                "stars": 18,
-                "updated": "2026-08-12",
-                "snapshot": "2026-08-17"
+                "stars": 21,
+                "updated": "2026-10-02",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1786,9 +1800,9 @@
                 "commercial_features"
               ],
               "metrics": {
-                "stars": 416,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 337,
+                "updated": "2026-10-11",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1814,9 +1828,9 @@
                 }
               ],
               "metrics": {
-                "stars": 222,
+                "stars": 226,
                 "updated": "2026-02-13",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1843,7 +1857,7 @@
               "metrics": {
                 "stars": 255,
                 "updated": "2026-06-05",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1873,9 +1887,9 @@
                 }
               ],
               "metrics": {
-                "stars": 385,
+                "stars": 395,
                 "updated": "2026-01-22",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1897,9 +1911,9 @@
                 }
               ],
               "metrics": {
-                "stars": 35,
+                "stars": 38,
                 "updated": "2026-06-05",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1921,9 +1935,9 @@
                 }
               ],
               "metrics": {
-                "stars": 42,
-                "updated": "2026-08-09",
-                "snapshot": "2026-08-17"
+                "stars": 44,
+                "updated": "2026-08-27",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1944,9 +1958,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3104,
-                "updated": "2026-07-31",
-                "snapshot": "2026-08-17"
+                "stars": 3569,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1971,9 +1985,9 @@
                 }
               ],
               "metrics": {
-                "stars": 7569,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 8669,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -1994,9 +2008,9 @@
                 }
               ],
               "metrics": {
-                "stars": 456,
-                "updated": "2026-06-25",
-                "snapshot": "2026-08-17"
+                "stars": 467,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2016,9 +2030,9 @@
                 }
               ],
               "metrics": {
-                "stars": 199,
+                "stars": 200,
                 "updated": "2026-06-26",
-                "snapshot": "2026-10-03"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2040,9 +2054,9 @@
                 }
               ],
               "metrics": {
-                "stars": 819,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 876,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2067,9 +2081,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1083,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-17"
+                "stars": 1119,
+                "updated": "2026-09-28",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2087,8 +2101,8 @@
               ],
               "metrics": {
                 "stars": 19,
-                "updated": "2026-08-12",
-                "snapshot": "2026-08-17"
+                "updated": "2026-09-18",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2110,9 +2124,9 @@
                 }
               ],
               "metrics": {
-                "stars": 531,
-                "updated": "2026-08-16",
-                "snapshot": "2026-08-17"
+                "stars": 769,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2138,9 +2152,9 @@
                 }
               ],
               "metrics": {
-                "stars": 112,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 118,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2158,9 +2172,9 @@
               ],
               "note": "— **note:** Apache-2.0 runtime is self-hostable, but the hosted dashboard and managed-service deployment glue are proprietary; self-hosting puts credential/key isolation and policy-engine hardening on the operator.",
               "metrics": {
-                "stars": 12,
+                "stars": 13,
                 "updated": "2026-07-23",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2174,9 +2188,9 @@
               ],
               "note": "— **note:** OWASP Incubator project; published benchmark numbers are project-reported and should be independently reproduced before production enforcement.",
               "metrics": {
-                "stars": 125,
-                "updated": "2026-08-16",
-                "snapshot": "2026-08-17"
+                "stars": 185,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2210,9 +2224,9 @@
                 }
               ],
               "metrics": {
-                "stars": 5727,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 6149,
+                "updated": "2026-09-14",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2234,9 +2248,9 @@
                 }
               ],
               "metrics": {
-                "stars": 4385,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 5301,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2265,9 +2279,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3544,
-                "updated": "2026-08-16",
-                "snapshot": "2026-08-17"
+                "stars": 4235,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2289,9 +2303,9 @@
                 }
               ],
               "metrics": {
-                "stars": 291,
-                "updated": "2026-08-16",
-                "snapshot": "2026-08-17"
+                "stars": 416,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2310,9 +2324,9 @@
               ],
               "note": "— **note:** AGPL-3.0 copyleft license; Gram is also available as Speakeasy's hosted commercial control plane, while local development uses a full Docker/Mise stack.",
               "metrics": {
-                "stars": 266,
-                "updated": "2026-09-09",
-                "snapshot": "2026-09-09"
+                "stars": 273,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2338,9 +2352,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2664,
-                "updated": "2026-08-13",
-                "snapshot": "2026-08-17"
+                "stars": 2753,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2368,9 +2382,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1442,
-                "updated": "2026-08-16",
-                "snapshot": "2026-08-17"
+                "stars": 2020,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2397,9 +2411,9 @@
                 }
               ],
               "metrics": {
-                "stars": 22,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 29,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2425,9 +2439,9 @@
                 }
               ],
               "metrics": {
-                "stars": 12,
-                "updated": "2026-08-24",
-                "snapshot": "2026-08-24"
+                "stars": 14,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2453,9 +2467,9 @@
                 }
               ],
               "metrics": {
-                "stars": 11,
-                "updated": "2026-08-23",
-                "snapshot": "2026-08-24"
+                "stars": 14,
+                "updated": "2026-10-08",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2484,9 +2498,9 @@
                 }
               ],
               "metrics": {
-                "stars": 466,
-                "updated": "2026-08-24",
-                "snapshot": "2026-08-24"
+                "stars": 868,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2513,9 +2527,9 @@
                 }
               ],
               "metrics": {
-                "stars": 117,
-                "updated": "2026-08-19",
-                "snapshot": "2026-08-24"
+                "stars": 126,
+                "updated": "2026-10-10",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2543,8 +2557,8 @@
               ],
               "metrics": {
                 "stars": 113,
-                "updated": "2026-08-23",
-                "snapshot": "2026-08-24"
+                "updated": "2026-09-25",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2573,9 +2587,9 @@
                 }
               ],
               "metrics": {
-                "stars": 7548,
-                "updated": "2026-08-25",
-                "snapshot": "2026-08-25"
+                "stars": 8737,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2604,9 +2618,9 @@
                 }
               ],
               "metrics": {
-                "stars": 12815,
+                "stars": 13174,
                 "updated": "2026-05-25",
-                "snapshot": "2026-08-24"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2630,9 +2644,9 @@
                 }
               ],
               "metrics": {
-                "stars": 570,
-                "updated": "2026-08-24",
-                "snapshot": "2026-08-24"
+                "stars": 643,
+                "updated": "2026-10-11",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2660,9 +2674,9 @@
                 }
               ],
               "metrics": {
-                "stars": 552,
-                "updated": "2026-08-20",
-                "snapshot": "2026-08-30"
+                "stars": 581,
+                "updated": "2026-09-15",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2686,9 +2700,9 @@
                 }
               ],
               "metrics": {
-                "stars": 381,
-                "updated": "2026-08-23",
-                "snapshot": "2026-08-30"
+                "stars": 566,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2716,9 +2730,9 @@
                 }
               ],
               "metrics": {
-                "stars": 485,
-                "updated": "2026-08-28",
-                "snapshot": "2026-08-30"
+                "stars": 504,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2744,9 +2758,9 @@
                 }
               ],
               "metrics": {
-                "stars": 24,
-                "updated": "2026-09-01",
-                "snapshot": "2026-09-04"
+                "stars": 25,
+                "updated": "2026-10-01",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2768,9 +2782,9 @@
                 }
               ],
               "metrics": {
-                "stars": 42,
-                "updated": "2026-09-03",
-                "snapshot": "2026-09-04"
+                "stars": 52,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -2797,9 +2811,9 @@
                 }
               ],
               "metrics": {
-                "stars": 100,
-                "updated": "2026-10-03",
-                "snapshot": "2026-10-03"
+                "stars": 103,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -2830,7 +2844,7 @@
           "metrics": {
             "stars": 92,
             "updated": "2026-02-25",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -2849,9 +2863,9 @@
           "desc": "ICML 2024 research implementation of federated-learning model-poisoning defense using reconstruction error of client updates.",
           "note": "**Caveat:** an experimental training/evaluation pipeline, not a production federation security layer; GPU, datasets, and attack configuration affect results. Consult the published erratum for the FLTrust baseline rather than copying the original comparison figures.",
           "metrics": {
-            "stars": 31,
+            "stars": 32,
             "updated": "2026-09-16",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           },
           "related": [
             {
@@ -2876,12 +2890,20 @@
           "name": "ModelAudit",
           "repo": "promptfoo/modelaudit",
           "org": "Promptfoo",
-          "status": ["open_source"],
+          "status": [
+            "open_source"
+          ],
           "license": "MIT",
-          "flags": ["telemetry"],
+          "flags": [
+            "telemetry"
+          ],
           "desc": "Model-artifact scanner with format-specific static parsers, a Rust-backed pickle-analysis companion, metadata checks, and JSON/SARIF reporting.",
           "note": "**Caveat:** installed usage enables telemetry by default; disable with `PROMPTFOO_DISABLE_TELEMETRY=1` or `NO_ANALYTICS=1`. Local scans need no hosted LLM, while remote sources need network access and sometimes credentials. Reports can retain raw secrets; optional `metadata --trust-loaders` can deserialize artifacts. A clean static scan does not establish model safety.",
-          "metrics": {"stars": 76, "updated": "2026-10-04", "snapshot": "2026-10-05"}
+          "metrics": {
+            "stars": 78,
+            "updated": "2026-10-10",
+            "snapshot": "2026-10-13"
+          }
         },
         {
           "name": "AI BOM",
@@ -2911,9 +2933,9 @@
             }
           ],
           "metrics": {
-            "stars": 110,
-            "updated": "2026-09-17",
-            "snapshot": "2026-09-21"
+            "stars": 114,
+            "updated": "2026-10-01",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -2930,9 +2952,9 @@
             }
           ],
           "metrics": {
-            "stars": 160,
+            "stars": 159,
             "updated": "2025-12-01",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -2966,9 +2988,9 @@
             }
           ],
           "metrics": {
-            "stars": 6179,
-            "updated": "2025-11-13",
-            "snapshot": "2026-08-17"
+            "stars": 6267,
+            "updated": "2026-10-08",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -2985,9 +3007,9 @@
             }
           ],
           "metrics": {
-            "stars": 2972,
+            "stars": 2982,
             "updated": "2024-03-04",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3013,9 +3035,9 @@
             }
           ],
           "metrics": {
-            "stars": 762,
+            "stars": 783,
             "updated": "2026-02-18",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3037,9 +3059,9 @@
             }
           ],
           "metrics": {
-            "stars": 662,
-            "updated": "2026-08-13",
-            "snapshot": "2026-08-17"
+            "stars": 670,
+            "updated": "2026-10-01",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3060,9 +3082,9 @@
             }
           ],
           "metrics": {
-            "stars": 418,
-            "updated": "2026-07-01",
-            "snapshot": "2026-08-17"
+            "stars": 427,
+            "updated": "2026-09-01",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3083,9 +3105,9 @@
             }
           ],
           "metrics": {
-            "stars": 76,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 81,
+            "updated": "2026-09-19",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3103,9 +3125,9 @@
             }
           ],
           "metrics": {
-            "stars": 101,
-            "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "stars": 108,
+            "updated": "2026-09-18",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3133,7 +3155,7 @@
           "metrics": {
             "stars": 17,
             "updated": "2026-08-03",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3158,9 +3180,9 @@
             }
           ],
           "metrics": {
-            "stars": 964,
+            "stars": 1002,
             "updated": "2026-06-24",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3183,9 +3205,9 @@
             }
           ],
           "metrics": {
-            "stars": 214,
+            "stars": 213,
             "updated": "2025-09-05",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3197,9 +3219,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 636,
+            "stars": 637,
             "updated": "2018-06-15",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3211,9 +3233,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 571,
+            "stars": 570,
             "updated": "2022-05-17",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3245,9 +3267,9 @@
             }
           ],
           "metrics": {
-            "stars": 17,
+            "stars": 18,
             "updated": "2026-06-09",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3271,9 +3293,9 @@
             }
           ],
           "metrics": {
-            "stars": 372,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 384,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3295,9 +3317,9 @@
             }
           ],
           "metrics": {
-            "stars": 1184,
-            "updated": "2026-08-14",
-            "snapshot": "2026-08-17"
+            "stars": 1232,
+            "updated": "2026-09-02",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3320,9 +3342,9 @@
             }
           ],
           "metrics": {
-            "stars": 903,
+            "stars": 919,
             "updated": "2026-07-21",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3340,9 +3362,9 @@
             }
           ],
           "metrics": {
-            "stars": 149,
+            "stars": 151,
             "updated": "2025-02-24",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3363,9 +3385,9 @@
             }
           ],
           "metrics": {
-            "stars": 129,
-            "updated": "2026-07-21",
-            "snapshot": "2026-08-17"
+            "stars": 136,
+            "updated": "2026-09-03",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3393,9 +3415,9 @@
             }
           ],
           "metrics": {
-            "stars": 32,
-            "updated": "2026-08-27",
-            "snapshot": "2026-08-30"
+            "stars": 33,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -3423,9 +3445,9 @@
           "desc": "Fact-intent graph coordinator that schedules Claude Code, Codex, or Pi workers for penetration-testing and CTF exploration through a shared persistent blackboard.",
           "note": "**Caveat:** workers can execute arbitrary tools; Docker mode exposes the host Docker socket and local mode has no OS sandbox. Configured providers receive target context; use a dedicated isolated host. Root license is AGPL-3.0; README describes personal/educational use and offers a separate commercial license for use without AGPL obligations.",
           "metrics": {
-            "stars": 3198,
+            "stars": 3550,
             "updated": "2026-09-07",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3437,9 +3459,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 14906,
+            "stars": 15926,
             "updated": "2026-07-14",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3451,24 +3473,33 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 21860,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-17"
+            "stars": 27471,
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
           "name": "CAI – Cybersecurity AI",
           "repo": "aliasrobotics/cai",
           "org": "Alias Robotics",
-          "desc": "Modular, bug-bounty-ready agent framework supporting 300+ LLM models. MIT for research; separate commercial license for production/on-prem.",
+          "desc": "Archived modular agent framework for model-assisted offensive and defensive security workflows, retained as a research reference.",
           "status": [
             "open_source",
             "commercial_open"
           ],
+          "license": "MIT components + proprietary research-use additions",
+          "flags": [
+            "archived",
+            "research",
+            "license_caveat",
+            "noncommercial",
+            "authorized_testing_only"
+          ],
+          "note": "**Caveat:** no further releases or security fixes are planned. The current archive combines MIT upstream components with Alias Robotics additions restricted to non-commercial research; professional or production use requires separate permission. Use only in isolated, authorized research environments.",
           "metrics": {
-            "stars": 9745,
-            "updated": "2026-07-14",
-            "snapshot": "2026-08-17"
+            "stars": 9842,
+            "updated": "2026-08-22",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3479,9 +3510,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 53569,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 68259,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3493,9 +3524,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 1209,
-            "updated": "2026-08-10",
-            "snapshot": "2026-08-17"
+            "stars": 1268,
+            "updated": "2026-09-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3507,9 +3538,9 @@
             "commercial_open"
           ],
           "metrics": {
-            "stars": 1087,
-            "updated": "2026-07-26",
-            "snapshot": "2026-08-17"
+            "stars": 1126,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3520,9 +3551,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 11116,
+            "stars": 12733,
             "updated": "2026-08-03",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3549,9 +3580,9 @@
             }
           ],
           "metrics": {
-            "stars": 1972,
-            "updated": "2026-08-14",
-            "snapshot": "2026-08-17"
+            "stars": 2340,
+            "updated": "2026-10-06",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3577,9 +3608,9 @@
             }
           ],
           "metrics": {
-            "stars": 1071,
+            "stars": 1233,
             "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3596,9 +3627,9 @@
             }
           ],
           "metrics": {
-            "stars": 1598,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 1734,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3626,9 +3657,9 @@
             }
           ],
           "metrics": {
-            "stars": 555,
+            "stars": 567,
             "updated": "2026-07-29",
-            "snapshot": "2026-10-03"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3645,9 +3676,9 @@
             }
           ],
           "metrics": {
-            "stars": 2132,
+            "stars": 2323,
             "updated": "2026-08-16",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3676,9 +3707,9 @@
             }
           ],
           "metrics": {
-            "stars": 843,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-17"
+            "stars": 1021,
+            "updated": "2026-10-01",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3709,9 +3740,9 @@
             }
           ],
           "metrics": {
-            "stars": 5596,
-            "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "stars": 6500,
+            "updated": "2026-09-08",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3727,9 +3758,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 46882,
-            "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "stars": 48816,
+            "updated": "2026-10-08",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3743,9 +3774,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 471,
-            "updated": "2026-07-19",
-            "snapshot": "2026-08-17"
+            "stars": 494,
+            "updated": "2026-09-15",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3760,9 +3791,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 314,
+            "stars": 322,
             "updated": "2025-06-24",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3774,9 +3805,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 185,
+            "stars": 198,
             "updated": "2025-04-07",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3787,9 +3818,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 2958,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-17"
+            "stars": 3173,
+            "updated": "2026-09-21",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3804,9 +3835,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 388,
+            "stars": 397,
             "updated": "2024-05-07",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3817,9 +3848,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 2205,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-17"
+            "stars": 2884,
+            "updated": "2026-10-11",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3833,9 +3864,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 1199,
+            "stars": 1215,
             "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3852,9 +3883,9 @@
           ],
           "note": "— **note:** early-stage local Docker application with no built-in authentication; keep its API and UI ports bound to localhost.",
           "metrics": {
-            "stars": 39,
-            "updated": "2026-08-02",
-            "snapshot": "2026-08-17"
+            "stars": 41,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3888,9 +3919,9 @@
             }
           ],
           "metrics": {
-            "stars": 174,
-            "updated": "2026-07-30",
-            "snapshot": "2026-08-17"
+            "stars": 184,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3909,9 +3940,9 @@
           ],
           "note": "— **note:** early-stage and tool-orchestration-heavy; run only in an isolated, authorized assessment environment.",
           "metrics": {
-            "stars": 12,
-            "updated": "2026-08-16",
-            "snapshot": "2026-08-17"
+            "stars": 13,
+            "updated": "2026-08-28",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3939,9 +3970,9 @@
             }
           ],
           "metrics": {
-            "stars": 761,
+            "stars": 807,
             "updated": "2026-04-08",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3972,9 +4003,9 @@
             }
           ],
           "metrics": {
-            "stars": 133,
-            "updated": "2026-08-31",
-            "snapshot": "2026-08-31"
+            "stars": 153,
+            "updated": "2026-10-04",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -3993,9 +4024,9 @@
           ],
           "note": "— **note:** authorized testing only, on a dedicated isolated host. The heavy Docker stack includes seccomp-unconfined components and services with Docker-socket access; approval gates are configurable, not an unavoidable boundary. Cloud LLMs receive target context; local inference avoids that provider transfer but does not disable external reconnaissance or other configured services. Bundled tools retain separate licenses, including copyleft and WPScan restrictions.",
           "metrics": {
-            "stars": 2906,
-            "updated": "2026-10-02",
-            "snapshot": "2026-10-03"
+            "stars": 3034,
+            "updated": "2026-10-08",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -4023,9 +4054,9 @@
                 }
               ],
               "metrics": {
-                "stars": 388,
-                "updated": "2025-12-18",
-                "snapshot": "2026-08-17"
+                "stars": 390,
+                "updated": "2026-09-24",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4046,9 +4077,9 @@
                 }
               ],
               "metrics": {
-                "stars": 392,
+                "stars": 394,
                 "updated": "2023-02-18",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4069,9 +4100,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 1290,
+                "stars": 1293,
                 "updated": "2024-02-19",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4089,9 +4120,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 826,
+                "stars": 830,
                 "updated": "2021-06-29",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4112,9 +4143,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 801,
+                "stars": 810,
                 "updated": "2025-12-04",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4148,9 +4179,9 @@
               ],
               "note": "— **note:** historical research reference; not an actively maintained password-auditing product.",
               "metrics": {
-                "stars": 2009,
+                "stars": 2013,
                 "updated": "2018-09-30",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4175,7 +4206,7 @@
               "metrics": {
                 "stars": 243,
                 "updated": "2018-11-30",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4223,7 +4254,7 @@
               "metrics": {
                 "stars": 263,
                 "updated": "2026-06-04",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4241,7 +4272,7 @@
               "metrics": {
                 "stars": 30,
                 "updated": "2022-02-09",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4262,9 +4293,9 @@
                 "early_stage"
               ],
               "metrics": {
-                "stars": 18,
-                "updated": "2026-03-05",
-                "snapshot": "2026-08-17"
+                "stars": 20,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4283,9 +4314,9 @@
                 }
               ],
               "metrics": {
-                "stars": 79,
+                "stars": 78,
                 "updated": "2025-10-08",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4300,9 +4331,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 215,
+                "stars": 216,
                 "updated": "2020-12-18",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4321,7 +4352,7 @@
               "metrics": {
                 "stars": 12,
                 "updated": "2025-04-25",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -4347,9 +4378,9 @@
               "desc": "ML-based web application and API firewall combining an offline-trained model with environment-specific traffic learning and block/log decisions.",
               "note": "**Caveat:** the bundled Apache-2.0 basic model is recommended for monitor/test use; the production-oriented advanced model is a separate portal download with its own terms. Review standalone versus SaaS management, telemetry/data flows, and deployment privileges such as host IPC; detection claims are not a security guarantee.",
               "metrics": {
-                "stars": 1718,
+                "stars": 1721,
                 "updated": "2026-09-01",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -4373,7 +4404,7 @@
               "metrics": {
                 "stars": 7,
                 "updated": "2026-02-21",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4385,9 +4416,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 172,
-                "updated": "2026-06-04",
-                "snapshot": "2026-08-17"
+                "stars": 185,
+                "updated": "2026-09-28",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -4426,9 +4457,9 @@
           "desc": "Symfony-aware source-audit package with attacker/reviewer model passes, confidence filtering, baseline deduplication, and budget-bounded partial results.",
           "note": "**Caveat:** reviewer-validated findings are model judgments, not confirmed exploitation. Offline-only mode defaults to false, so hosted providers receive selected source; local inference needs separately provisioned models. Requires PHP 8.3+ and a compatible Symfony version.",
           "metrics": {
-            "stars": 95,
+            "stars": 97,
             "updated": "2026-10-04",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4447,9 +4478,9 @@
           "desc": "Agent-driven source-security research pipeline that ranks files, coordinates vulnerability hunting and validation, optionally generates patches, and exports SARIF, JSON, and Markdown findings.",
           "note": "**Caveat:** can compile untrusted targets and execute generated proofs or exploits; use isolated authorized environments and explicit spending limits. Hosted models receive source context; local providers are supported. Optional OTLP/Phoenix tracing can export run metadata. Findings need independent verification, and released packages can lag main.",
           "metrics": {
-            "stars": 1072,
+            "stars": 1075,
             "updated": "2026-10-02",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4472,9 +4503,9 @@
             }
           ],
           "metrics": {
-            "stars": 18424,
+            "stars": 28989,
             "updated": "2026-09-14",
-            "snapshot": "2026-09-21"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4500,9 +4531,9 @@
             }
           ],
           "metrics": {
-            "stars": 1678,
-            "updated": "2026-09-18",
-            "snapshot": "2026-09-21"
+            "stars": 2424,
+            "updated": "2026-10-06",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4527,9 +4558,9 @@
             }
           ],
           "metrics": {
-            "stars": 1016,
-            "updated": "2026-08-15",
-            "snapshot": "2026-09-21"
+            "stars": 1097,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4547,9 +4578,9 @@
             }
           ],
           "metrics": {
-            "stars": 2741,
+            "stars": 2800,
             "updated": "2025-02-06",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4571,9 +4602,9 @@
             }
           ],
           "metrics": {
-            "stars": 7695,
-            "updated": "2026-08-13",
-            "snapshot": "2026-08-17"
+            "stars": 8134,
+            "updated": "2026-09-29",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4601,9 +4632,9 @@
             }
           ],
           "metrics": {
-            "stars": 9911,
-            "updated": "2026-08-16",
-            "snapshot": "2026-08-17"
+            "stars": 11079,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4633,9 +4664,9 @@
             }
           ],
           "metrics": {
-            "stars": 1877,
-            "updated": "2026-08-16",
-            "snapshot": "2026-08-17"
+            "stars": 2280,
+            "updated": "2026-09-15",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4663,9 +4694,9 @@
             }
           ],
           "metrics": {
-            "stars": 2556,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-17"
+            "stars": 2907,
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4693,9 +4724,9 @@
             }
           ],
           "metrics": {
-            "stars": 7270,
+            "stars": 7570,
             "updated": "2026-08-06",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4724,9 +4755,9 @@
             }
           ],
           "metrics": {
-            "stars": 14,
-            "updated": "2026-08-11",
-            "snapshot": "2026-08-17"
+            "stars": 23,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4757,9 +4788,9 @@
             }
           ],
           "metrics": {
-            "stars": 1,
-            "updated": "2026-10-05",
-            "snapshot": "2026-10-05"
+            "stars": 2,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4771,9 +4802,9 @@
             "commercial_open"
           ],
           "metrics": {
-            "stars": 5866,
+            "stars": 6361,
             "updated": "2026-02-11",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4785,9 +4816,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 413,
+            "stars": 440,
             "updated": "2026-07-02",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4812,9 +4843,9 @@
             }
           ],
           "metrics": {
-            "stars": 1276,
+            "stars": 1335,
             "updated": "2026-04-08",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4832,9 +4863,9 @@
             }
           ],
           "metrics": {
-            "stars": 274,
-            "updated": "2026-04-07",
-            "snapshot": "2026-08-17"
+            "stars": 289,
+            "updated": "2026-08-22",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4856,9 +4887,9 @@
             }
           ],
           "metrics": {
-            "stars": 20,
+            "stars": 22,
             "updated": "2026-06-29",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4872,9 +4903,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 22,
+            "stars": 25,
             "updated": "2025-04-02",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4909,9 +4940,9 @@
             }
           ],
           "metrics": {
-            "stars": 6624,
-            "updated": "2026-08-14",
-            "snapshot": "2026-08-17"
+            "stars": 7502,
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4938,9 +4969,9 @@
             }
           ],
           "metrics": {
-            "stars": 730,
+            "stars": 743,
             "updated": "2026-06-01",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -4971,9 +5002,9 @@
             }
           ],
           "metrics": {
-            "stars": 1676,
-            "updated": "2026-08-10",
-            "snapshot": "2026-08-17"
+            "stars": 1720,
+            "updated": "2026-09-28",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -5001,7 +5032,7 @@
           "metrics": {
             "stars": 80,
             "updated": "2026-08-01",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5028,9 +5059,9 @@
             }
           ],
           "metrics": {
-            "stars": 89,
-            "updated": "2026-08-13",
-            "snapshot": "2026-08-17"
+            "stars": 94,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5049,9 +5080,9 @@
             }
           ],
           "metrics": {
-            "stars": 1101,
-            "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "stars": 1141,
+            "updated": "2026-10-05",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -5087,9 +5118,9 @@
                 }
               ],
               "metrics": {
-                "stars": 20,
+                "stars": 24,
                 "updated": "2026-09-21",
-                "snapshot": "2026-10-04"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5109,9 +5140,9 @@
               ],
               "note": "**Caveat:** agents deliberately bypass permission and sandbox approvals and can access host files and the network. Run only on an ephemeral isolated VM without unrelated credentials; review a published release rather than the default unstable branch. Model/provider configuration determines cost and data disclosure; the harness is not an isolation boundary.",
               "metrics": {
-                "stars": 98,
-                "updated": "2026-10-02",
-                "snapshot": "2026-10-04"
+                "stars": 99,
+                "updated": "2026-10-06",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5130,9 +5161,9 @@
               ],
               "note": "**Caveat:** requires target build metadata, a native LLVM/Clang toolchain, and configured generation/embedding models. Hosted providers receive source and documentation context; generated harnesses and target code execute during campaigns. Use isolated authorized environments and do not generalize the paper's coverage or bug-finding results to arbitrary targets.",
               "metrics": {
-                "stars": 61,
+                "stars": 62,
                 "updated": "2026-07-30",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5144,14 +5175,14 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 1430,
+                "stars": 1443,
                 "updated": "2026-03-02",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
               "name": "PromptFuzz",
-              "repo": "PromptFuzz/PromptFuzz",
+              "repo": "FuzzAnything/PromptFuzz",
               "desc": "LLM-mutated prompts to generate fuzz drivers for C/C++ libraries (Rust).",
               "status": [
                 "open_source",
@@ -5161,9 +5192,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 342,
+                "stars": 347,
                 "updated": "2026-05-15",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5175,9 +5206,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 336,
+                "stars": 338,
                 "updated": "2025-08-11",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5189,9 +5220,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 392,
+                "stars": 400,
                 "updated": "2025-06-20",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5206,9 +5237,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 94,
+                "stars": 95,
                 "updated": "2023-09-10",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -5226,9 +5257,9 @@
               ],
               "note": "— **note:** historical research reference; maintenance appears low compared with current LLM security scanners.",
               "metrics": {
-                "stars": 377,
+                "stars": 383,
                 "updated": "2024-02-12",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5240,9 +5271,9 @@
                 "commercial_open"
               ],
               "metrics": {
-                "stars": 703,
-                "updated": "2026-02-16",
-                "snapshot": "2026-08-17"
+                "stars": 717,
+                "updated": "2026-08-19",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5254,9 +5285,9 @@
                 "commercial_open"
               ],
               "metrics": {
-                "stars": 1563,
+                "stars": 1586,
                 "updated": "2026-02-06",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5274,9 +5305,9 @@
                 }
               ],
               "metrics": {
-                "stars": 263,
+                "stars": 266,
                 "updated": "2026-09-11",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               },
               "license": "Apache-2.0"
             },
@@ -5297,9 +5328,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1250,
+                "stars": 1280,
                 "updated": "2025-12-01",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -5311,9 +5342,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 36,
+                "stars": 37,
                 "updated": "2025-09-04",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -5339,9 +5370,9 @@
           ],
           "note": "**Caveat:** core storage and retrieval are local, but embedding models require an initial download and optional remote LLM providers receive analysis content. Rich extraction and synthesis depend on the configured model; synthesis without an LLM is a placeholder, not a completed analysis. Generated links and attribution need analyst validation.",
           "metrics": {
-            "stars": 64,
+            "stars": 65,
             "updated": "2026-07-10",
-            "snapshot": "2026-10-04"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5358,9 +5389,9 @@
           ],
           "note": "**Caveat:** collection contacts external and potentially hostile sources; Tor is not an anonymity guarantee. Cloud model adapters disclose submitted content, while local models are configurable. Neural embeddings are optional and the SHA-256 fallback is not semantic ML; generated attribution and detection rules require analyst review.",
           "metrics": {
-            "stars": 770,
-            "updated": "2026-08-04",
-            "snapshot": "2026-10-04"
+            "stars": 790,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5378,9 +5409,9 @@
           ],
           "note": "**Caveat:** skills guide a host agent rather than provide an independent detection engine. Live integrations need provider credentials and can disclose intelligence; some clients can create, modify, or delete records. Confirmation instructions are not enforced authorization, so scope credentials and review writes separately.",
           "metrics": {
-            "stars": 25,
+            "stars": 27,
             "updated": "2026-09-30",
-            "snapshot": "2026-10-04"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5391,9 +5422,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 10,
+            "stars": 11,
             "updated": "2023-11-15",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5404,9 +5435,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 111,
+            "stars": 112,
             "updated": "2026-02-16",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5419,20 +5450,20 @@
           "metrics": {
             "stars": 38,
             "updated": "2024-12-04",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
           "name": "ThreatIngestor",
-          "repo": "InQuest/ThreatIngestor",
+          "repo": "pedramamini/ThreatIngestor",
           "desc": "Extracts/aggregates IOCs from feeds; integrates with MISP/ThreatKB (pairs well with LLM post-processing).",
           "status": [
             "open_source"
           ],
           "metrics": {
-            "stars": 922,
+            "stars": 931,
             "updated": "2026-05-26",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5449,9 +5480,9 @@
             }
           ],
           "metrics": {
-            "stars": 384,
+            "stars": 386,
             "updated": "2022-12-09",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5471,9 +5502,9 @@
             }
           ],
           "metrics": {
-            "stars": 51,
+            "stars": 52,
             "updated": "2025-01-22",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5492,7 +5523,7 @@
           "metrics": {
             "stars": 4,
             "updated": "2025-11-03",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5519,9 +5550,9 @@
             }
           ],
           "metrics": {
-            "stars": 85,
+            "stars": 89,
             "updated": "2026-02-25",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5548,9 +5579,9 @@
             }
           ],
           "metrics": {
-            "stars": 92,
+            "stars": 94,
             "updated": "2026-05-07",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5582,9 +5613,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 47,
-            "updated": "2025-12-28",
-            "snapshot": "2026-08-17"
+            "stars": 51,
+            "updated": "2026-09-30",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5601,9 +5632,9 @@
             }
           ],
           "metrics": {
-            "stars": 78,
+            "stars": 89,
             "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5621,9 +5652,9 @@
             }
           ],
           "metrics": {
-            "stars": 247,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 365,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5634,9 +5665,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 1144,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-17"
+            "stars": 1205,
+            "updated": "2026-09-29",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5657,9 +5688,9 @@
             }
           ],
           "metrics": {
-            "stars": 97,
+            "stars": 98,
             "updated": "2025-11-03",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5688,7 +5719,7 @@
           "metrics": {
             "stars": 15,
             "updated": "2025-10-20",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5701,7 +5732,7 @@
           "metrics": {
             "stars": 7,
             "updated": "2025-06-11",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5712,9 +5743,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 1234,
-            "updated": "2026-08-13",
-            "snapshot": "2026-08-17"
+            "stars": 1254,
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5742,9 +5773,9 @@
             }
           ],
           "metrics": {
-            "stars": 517,
-            "updated": "2026-04-29",
-            "snapshot": "2026-08-17"
+            "stars": 532,
+            "updated": "2026-10-06",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5773,9 +5804,9 @@
             }
           ],
           "metrics": {
-            "stars": 143,
-            "updated": "2026-08-03",
-            "snapshot": "2026-08-17"
+            "stars": 159,
+            "updated": "2026-08-27",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -5800,9 +5831,9 @@
           "desc": "Native IDA Pro plugin for LLM-assisted function explanation, symbol renaming, binary knowledge graphs, document retrieval, and tool-driven analysis through local or hosted model providers.",
           "note": "**Caveat:** requires separately licensed IDA Pro; hosted models receive analysis context, optional SymGraph sharing exports symbols and graph data, and MCP tools can modify the IDB or start local processes. Findings require analyst verification.",
           "metrics": {
-            "stars": 729,
+            "stars": 872,
             "updated": "2026-09-20",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5820,9 +5851,9 @@
           ],
           "note": "— **note:** the Windows-driver workflow requires an operator-provided Ghidra installation and optional LLM-provider credentials; analyze only drivers you are authorized to research.",
           "metrics": {
-            "stars": 712,
+            "stars": 739,
             "updated": "2026-09-10",
-            "snapshot": "2026-09-11"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5833,9 +5864,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 3457,
+            "stars": 3482,
             "updated": "2026-08-15",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5846,9 +5877,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 11393,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 12722,
+            "updated": "2026-09-26",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5869,9 +5900,9 @@
             }
           ],
           "metrics": {
-            "stars": 9805,
-            "updated": "2025-06-23",
-            "snapshot": "2026-08-17"
+            "stars": 11156,
+            "updated": "2026-10-10",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5892,9 +5923,9 @@
             }
           ],
           "metrics": {
-            "stars": 805,
-            "updated": "2026-07-28",
-            "snapshot": "2026-08-17"
+            "stars": 871,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5915,9 +5946,9 @@
             }
           ],
           "metrics": {
-            "stars": 719,
-            "updated": "2026-08-02",
-            "snapshot": "2026-08-17"
+            "stars": 770,
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5934,9 +5965,9 @@
             }
           ],
           "metrics": {
-            "stars": 3333,
-            "updated": "2026-08-12",
-            "snapshot": "2026-08-17"
+            "stars": 5542,
+            "updated": "2026-10-08",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5962,7 +5993,7 @@
           "metrics": {
             "stars": 154,
             "updated": "2024-11-29",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -5983,9 +6014,9 @@
             }
           ],
           "metrics": {
-            "stars": 658,
+            "stars": 825,
             "updated": "2026-07-22",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6000,9 +6031,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 6965,
+            "stars": 7127,
             "updated": "2026-02-12",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6013,9 +6044,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 104,
+            "stars": 131,
             "updated": "2026-06-08",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6026,9 +6057,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 47,
+            "stars": 50,
             "updated": "2025-05-13",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6050,9 +6081,9 @@
             }
           ],
           "metrics": {
-            "stars": 410,
-            "updated": "2026-08-14",
-            "snapshot": "2026-08-17"
+            "stars": 454,
+            "updated": "2026-09-16",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6064,9 +6095,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 312,
+            "stars": 314,
             "updated": "2023-05-10",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6077,9 +6108,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 407,
+            "stars": 410,
             "updated": "2022-12-31",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6096,9 +6127,9 @@
             }
           ],
           "metrics": {
-            "stars": 2347,
+            "stars": 2398,
             "updated": "2024-06-09",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6116,24 +6147,25 @@
             }
           ],
           "metrics": {
-            "stars": 116,
+            "stars": 115,
             "updated": "2023-05-01",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
           "name": "REA",
           "repo": "morluto/rea",
-          "desc": "Local CLI and MCP toolkit for agent-assisted reverse engineering of native binaries, managed PE/CLI files, JavaScript/Electron apps, and browser runtimes, using Hopper or an operator-provided Ghidra installation.",
+          "desc": "Local CLI and MCP toolkit for agent-assisted reverse engineering of native binaries, JavaScript/Electron and .NET applications, Android artifacts, firmware, and browser/process behavior, integrating analysis providers including Hopper, Ghidra, and IDA.",
           "status": [
             "open_source"
           ],
           "license": "MIT",
-          "note": "— **note:** deep native analysis uses separately licensed Hopper or operator-installed Ghidra. Setup can modify agent MCP registrations after interactive approval, and dynamic providers run with the current user's permissions; analyze only authorized artifacts.",
+          "note": "— **note:** provider and host requirements vary; native engines, including commercial Hopper/IDA, are separate dependencies. Setup can modify agent MCP registrations and workflow skills after approval. REA is not a sandbox: dynamic capture can execute targets with the current user's permissions and inherited environment. Use isolated, authorized analysis environments. Tool analysis is local, but results enter the host agent's context and may reach its model provider; agent conclusions depend on that model.",
           "flags": [
             "heavy_runtime",
             "authorized_testing_only",
-            "commercial_features"
+            "commercial_features",
+            "model_dependent"
           ],
           "related": [
             {
@@ -6146,9 +6178,9 @@
             }
           ],
           "metrics": {
-            "stars": 346,
-            "updated": "2026-08-14",
-            "snapshot": "2026-08-17"
+            "stars": 176042,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -6177,9 +6209,9 @@
             }
           ],
           "metrics": {
-            "stars": 1101,
-            "updated": "2026-09-08",
-            "snapshot": "2026-09-08"
+            "stars": 1255,
+            "updated": "2026-09-29",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -6209,7 +6241,7 @@
               "metrics": {
                 "stars": 69,
                 "updated": "2026-09-12",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6231,7 +6263,7 @@
               "metrics": {
                 "stars": 57,
                 "updated": "2025-11-24",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6253,7 +6285,7 @@
               "metrics": {
                 "stars": 134,
                 "updated": "2026-05-31",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6270,30 +6302,53 @@
               "desc": "Guideline-grounded jailbreak evaluator that scores saved model responses against case-specific criteria using configurable judge backends.",
               "note": "**Caveat:** the bundled dataset integration is gated and needs approval/HF_TOKEN; dataset and model terms are separate from the code license. Judge models can disagree or fail, and hosted backends receive evaluated content; this is an evaluator, not an attack generator or ground-truth oracle.",
               "metrics": {
-                "stars": 32,
+                "stars": 33,
                 "updated": "2026-08-31",
-                "snapshot": "2026-10-05"
+                "snapshot": "2026-10-13"
               }
             },
             {
               "name": "OpenART",
               "repo": "AI45Lab/OpenART",
-              "status": ["open_source", "research"],
+              "status": [
+                "open_source",
+                "research"
+              ],
               "license": "AGPL-3.0",
-              "flags": ["copyleft", "model_dependent", "heavy_runtime", "authorized_testing_only"],
+              "flags": [
+                "copyleft",
+                "model_dependent",
+                "heavy_runtime",
+                "authorized_testing_only"
+              ],
               "desc": "Research benchmark and Docker-based runtime for red-teaming tool-using agents through adversarial changes to stateful, long-running task environments.",
               "note": "**Caveat:** bundled runnable tasks are a subset of the paper's broader evaluation, not the entire headline corpus. Model-backed attackers, targets, and judges require configured providers and can disclose evaluation content. Executable evaluators, container mounts, and network access require disposable authorized environments; this is not a production guardrail or independently verified containment layer.",
-              "metrics": {"stars": 229, "updated": "2026-10-03", "snapshot": "2026-10-05"}
+              "metrics": {
+                "stars": 237,
+                "updated": "2026-10-03",
+                "snapshot": "2026-10-13"
+              }
             },
             {
               "name": "ZeroLeaks",
               "repo": "ZeroLeaks/zeroleaks",
-              "status": ["commercial_open"],
+              "status": [
+                "commercial_open"
+              ],
               "license": "FSL-1.1-Apache-2.0",
-              "flags": ["license_caveat", "model_dependent", "commercial_features", "authorized_testing_only"],
+              "flags": [
+                "license_caveat",
+                "model_dependent",
+                "commercial_features",
+                "authorized_testing_only"
+              ],
               "desc": "Source-available TypeScript library and CLI for model-based system-prompt extraction and injection testing with adaptive attacks and configurable providers.",
               "note": "**Caveat:** FSL restricts competing commercial use before the future Apache conversion. The public package tests a model plus system prompt, not a deployed application's actual tools, memory, or side effects; hosted deployed-agent testing is separate and paid. Hosted providers receive prompt material and require credentials, while local compatible endpoints are supported. Model-graded results are not proof of exploitation.",
-              "metrics": {"stars": 733, "updated": "2026-09-26", "snapshot": "2026-10-05"}
+              "metrics": {
+                "stars": 733,
+                "updated": "2026-09-26",
+                "snapshot": "2026-10-13"
+              }
             },
             {
               "name": "RAMPART",
@@ -6322,9 +6377,9 @@
                 }
               ],
               "metrics": {
-                "stars": 414,
-                "updated": "2026-09-18",
-                "snapshot": "2026-09-21"
+                "stars": 420,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6343,9 +6398,9 @@
               ],
               "note": "— **note:** attacker and judge workflows depend on configured LLM providers and add inference cost; trace integrations can expose internal agent data to the selected observability service. Use only against systems you own or are authorized to test.",
               "metrics": {
-                "stars": 580,
-                "updated": "2026-09-13",
-                "snapshot": "2026-09-21"
+                "stars": 582,
+                "updated": "2026-08-13",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6376,9 +6431,9 @@
                 }
               ],
               "metrics": {
-                "stars": 23,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 61,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6400,9 +6455,9 @@
                 }
               ],
               "metrics": {
-                "stars": 8834,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 9548,
+                "updated": "2026-10-10",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6414,9 +6469,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 4316,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 4607,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -6434,9 +6489,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 24302,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 25956,
+                "updated": "2026-10-13",
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -6464,9 +6519,9 @@
                 }
               ],
               "metrics": {
-                "stars": 280,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 304,
+                "updated": "2026-10-03",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6487,9 +6542,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1966,
-                "updated": "2026-07-31",
-                "snapshot": "2026-08-17"
+                "stars": 2019,
+                "updated": "2026-09-22",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6515,16 +6570,16 @@
                 }
               ],
               "metrics": {
-                "stars": 358,
-                "updated": "2026-08-15",
-                "snapshot": "2026-08-17"
+                "stars": 521,
+                "updated": "2026-09-21",
+                "snapshot": "2026-10-13"
               }
             },
             {
               "name": "wallbreaker",
               "repo": "JailbrokenAI/wallbreaker",
               "desc": "Claude-Code-style terminal and red-team harness for authorized LLM safety testing, with HarmBench, PAIR/TAP, Crescendo, GCG-style workflows, Parseltongue transforms, MCP tooling, LLM judges, and reproducible run artifacts.",
-              "note": "— **note:** offensive jailbreak toolkit for authorized testing only; AGPL-3.0 licensed and NOTICE flags external jailbreak corpora with their own or missing upstream licenses.",
+              "note": "— **note:** repository returned HTTP 404 on 2026-10-13; availability is unconfirmed and metrics retain the 2026-08-17 snapshot. Offensive jailbreak toolkit for authorized testing only; AGPL-3.0 licensed and NOTICE flags external jailbreak corpora with their own or missing upstream licenses.",
               "status": [
                 "open_source",
                 "research"
@@ -6576,9 +6631,9 @@
                 }
               ],
               "metrics": {
-                "stars": 29,
-                "updated": "2026-08-13",
-                "snapshot": "2026-08-17"
+                "stars": 32,
+                "updated": "2026-10-02",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6589,9 +6644,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 2451,
-                "updated": "2026-08-12",
-                "snapshot": "2026-08-17"
+                "stars": 3010,
+                "updated": "2026-10-01",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6603,9 +6658,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 347,
+                "stars": 356,
                 "updated": "2026-02-05",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6631,9 +6686,9 @@
                 }
               ],
               "metrics": {
-                "stars": 7294,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 7511,
+                "updated": "2026-08-26",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6655,9 +6710,9 @@
                 }
               ],
               "metrics": {
-                "stars": 5755,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 5892,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6669,9 +6724,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 994,
+                "stars": 999,
                 "updated": "2024-11-22",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6697,9 +6752,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3201,
+                "stars": 3218,
                 "updated": "2026-07-08",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6721,9 +6776,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1520,
+                "stars": 1529,
                 "updated": "2024-01-25",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6735,9 +6790,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 6965,
-                "updated": "2026-08-17",
-                "snapshot": "2026-08-17"
+                "stars": 7286,
+                "updated": "2026-10-10",
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -6759,9 +6814,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 4355,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 4427,
+                "updated": "2026-10-12",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6775,9 +6830,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 215,
+                "stars": 223,
                 "updated": "2026-01-15",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6789,9 +6844,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 496,
+                "stars": 506,
                 "updated": "2024-01-31",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6803,9 +6858,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 935,
+                "stars": 942,
                 "updated": "2025-07-18",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6817,9 +6872,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 2046,
+                "stars": 2095,
                 "updated": "2025-10-07",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6831,9 +6886,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 886,
-                "updated": "2026-03-30",
-                "snapshot": "2026-08-17"
+                "stars": 926,
+                "updated": "2026-09-01",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6845,23 +6900,23 @@
                 "research"
               ],
               "metrics": {
-                "stars": 3467,
+                "stars": 3475,
                 "updated": "2026-08-15",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
               "name": "GPTFuzz",
-              "repo": "sherdencooper/GPTFuzz",
+              "repo": "hubertyoo/GPTFuzz",
               "desc": "Research framework for red-teaming LLMs with auto-generated jailbreak prompts.",
               "status": [
                 "open_source",
                 "research"
               ],
               "metrics": {
-                "stars": 604,
+                "stars": 608,
                 "updated": "2026-02-27",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6884,9 +6939,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1029,
+                "stars": 1068,
                 "updated": "2024-08-05",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6908,9 +6963,9 @@
                 }
               ],
               "metrics": {
-                "stars": 4761,
+                "stars": 4829,
                 "updated": "2024-08-02",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6927,9 +6982,9 @@
                 }
               ],
               "metrics": {
-                "stars": 346,
+                "stars": 356,
                 "updated": "2025-05-13",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -6941,9 +6996,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 654,
+                "stars": 687,
                 "updated": "2025-03-31",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -6965,9 +7020,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 479,
-                "updated": "2025-10-29",
-                "snapshot": "2026-08-17"
+                "stars": 506,
+                "updated": "2026-09-27",
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -7004,9 +7059,9 @@
                 }
               ],
               "metrics": {
-                "stars": 198,
+                "stars": 200,
                 "updated": "2026-04-02",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7028,9 +7083,9 @@
                 }
               ],
               "metrics": {
-                "stars": 47,
-                "updated": "2026-04-20",
-                "snapshot": "2026-08-17"
+                "stars": 53,
+                "updated": "2026-08-31",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7046,9 +7101,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 177,
+                "stars": 179,
                 "updated": "2025-10-27",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7060,9 +7115,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 424,
+                "stars": 477,
                 "updated": "2025-07-24",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7073,9 +7128,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 2128,
+                "stars": 2149,
                 "updated": "2025-07-17",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               },
               "related": [
                 {
@@ -7107,9 +7162,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 23,
+                "stars": 27,
                 "updated": "2024-02-21",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7121,9 +7176,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 341,
+                "stars": 346,
                 "updated": "2024-06-07",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7137,9 +7192,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 724,
+                "stars": 737,
                 "updated": "2025-02-22",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7167,9 +7222,9 @@
                 }
               ],
               "metrics": {
-                "stars": 30,
-                "updated": "2026-09-14",
-                "snapshot": "2026-09-14"
+                "stars": 39,
+                "updated": "2026-10-08",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7193,9 +7248,9 @@
                 }
               ],
               "metrics": {
-                "stars": 422,
-                "updated": "2026-07-27",
-                "snapshot": "2026-08-17"
+                "stars": 437,
+                "updated": "2026-09-14",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7222,7 +7277,7 @@
               "related": [
                 {
                   "label": "PromptFuzz",
-                  "url": "https://github.com/PromptFuzz/PromptFuzz"
+                  "url": "https://github.com/FuzzAnything/PromptFuzz"
                 },
                 {
                   "label": "promptfoo",
@@ -7234,9 +7289,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1076,
+                "stars": 1080,
                 "updated": "2026-02-19",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7264,9 +7319,9 @@
                 }
               ],
               "metrics": {
-                "stars": 61,
+                "stars": 62,
                 "updated": "2026-05-18",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7296,9 +7351,9 @@
                 }
               ],
               "metrics": {
-                "stars": 204,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-24"
+                "stars": 206,
+                "updated": "2026-08-25",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7326,9 +7381,9 @@
                 }
               ],
               "metrics": {
-                "stars": 339,
+                "stars": 336,
                 "updated": "2026-06-09",
-                "snapshot": "2026-08-24"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7356,9 +7411,9 @@
                 }
               ],
               "metrics": {
-                "stars": 803,
-                "updated": "2026-08-15",
-                "snapshot": "2026-08-24"
+                "stars": 880,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7390,7 +7445,7 @@
               "metrics": {
                 "stars": 107,
                 "updated": "2026-08-20",
-                "snapshot": "2026-08-24"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7422,9 +7477,9 @@
                 }
               ],
               "metrics": {
-                "stars": 379,
+                "stars": 405,
                 "updated": "2025-06-20",
-                "snapshot": "2026-08-30"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7462,9 +7517,9 @@
                 }
               ],
               "metrics": {
-                "stars": 70,
-                "updated": "2026-06-11",
-                "snapshot": "2026-08-30"
+                "stars": 71,
+                "updated": "2026-02-25",
+                "snapshot": "2026-10-13"
               }
             }
           ]
@@ -7556,11 +7611,17 @@
               "name": "Foundation-Sec-8B-Reasoning",
               "model": "fdtn-ai/Foundation-Sec-8B-Reasoning",
               "org": "Cisco Foundation AI",
-              "status": ["commercial_open"],
+              "status": [
+                "commercial_open"
+              ],
               "license": "Llama 3.1 Community License (base materials); Apache-2.0 (Cisco changes)",
               "access": "open",
               "artifacts": "Safetensors",
-              "flags": ["license_caveat", "model_dependent", "heavy_runtime"],
+              "flags": [
+                "license_caveat",
+                "model_dependent",
+                "heavy_runtime"
+              ],
               "desc": "Downloadable Llama-3.1-derived 8B reasoning model for cybersecurity analysis, threat intelligence, and multi-step security workflows.",
               "note": "**Caveat:** not an Apache-only model; retain the base-model license and NOTICE obligations. Local inference needs a separate runtime and substantial memory, but no mandatory Cisco service. Security analysis can hallucinate; this is not a verified scanner or guardrail, and any tool-executing wrapper needs independent authorization and isolation."
             },
@@ -7579,9 +7640,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3099,
+                "stars": 3114,
                 "updated": "2025-06-25",
-                "snapshot": "2026-08-17"
+                "snapshot": "2026-10-13"
               }
             },
             {
@@ -7688,24 +7749,24 @@
             "copyleft"
           ],
           "metrics": {
-            "stars": 2148,
-            "updated": "2026-08-11",
-            "snapshot": "2026-08-17"
+            "stars": 2194,
+            "updated": "2026-10-01",
+            "snapshot": "2026-10-13"
           }
         },
         {
           "name": "DECEIVE",
-          "repo": "splunk/DECEIVE",
-          "org": "Splunk",
+          "repo": "Cisco-Talos/DECEIVE",
+          "org": "Cisco Talos / originally Splunk SURGe",
           "desc": "Proof-of-concept LLM-powered SSH honeypot that evaluates sessions as benign, suspicious, or malicious.",
           "status": [
             "open_source",
             "research"
           ],
           "metrics": {
-            "stars": 288,
+            "stars": 296,
             "updated": "2026-05-13",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7719,7 +7780,7 @@
           "metrics": {
             "stars": 15,
             "updated": "2024-11-20",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7733,18 +7794,18 @@
           "related": [
             {
               "label": "VelLMes",
-              "url": "https://github.com/stratosphereips/VelLMes-AI-Honeypot"
+              "url": "https://github.com/stratosphereips/VelLMes-AI-Deception-Framework"
             }
           ],
           "metrics": {
-            "stars": 64,
+            "stars": 67,
             "updated": "2026-06-25",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
           "name": "VelLMes",
-          "repo": "stratosphereips/VelLMes-AI-Honeypot",
+          "repo": "stratosphereips/VelLMes-AI-Deception-Framework",
           "desc": "Multi-protocol LLM honeypot framework (successor to shelLM).",
           "status": [
             "open_source",
@@ -7757,9 +7818,9 @@
             }
           ],
           "metrics": {
-            "stars": 78,
+            "stars": 80,
             "updated": "2025-02-18",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7774,9 +7835,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 60,
+            "stars": 65,
             "updated": "2026-01-23",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -7804,7 +7865,7 @@
           "metrics": {
             "stars": 43,
             "updated": "2026-09-10",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7823,7 +7884,7 @@
           "metrics": {
             "stars": 29,
             "updated": "2026-09-14",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7843,9 +7904,9 @@
           "desc": "Research benchmark and evaluation harness for developing exploits for known vulnerabilities across userspace programs, V8, and Linux-kernel tasks, combining flag checks with model-based trajectory assessment.",
           "note": "**Caveat:** executes real exploits against vulnerable containers or VMs and can require host mitigation changes; use dedicated isolated infrastructure. Providers and model judges receive task context, task artifacts retain separate upstream licenses, and judge verdicts need review.",
           "metrics": {
-            "stars": 1135,
+            "stars": 1163,
             "updated": "2026-09-29",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7870,9 +7931,9 @@
             }
           ],
           "metrics": {
-            "stars": 40,
+            "stars": 43,
             "updated": "2026-06-18",
-            "snapshot": "2026-09-21"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7891,9 +7952,9 @@
           ],
           "note": "— **note:** training and research lab, not a scanner; it contains exploitation code and deliberately vulnerable services that should run only in disposable isolated environments.",
           "metrics": {
-            "stars": 53,
+            "stars": 59,
             "updated": "2026-09-20",
-            "snapshot": "2026-09-21"
+            "snapshot": "2026-10-13"
           },
           "related": [
             {
@@ -7933,9 +7994,9 @@
             }
           ],
           "metrics": {
-            "stars": 20069,
+            "stars": 20542,
             "updated": "2026-07-16",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7946,9 +8007,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 311,
-            "updated": "2026-07-09",
-            "snapshot": "2026-08-17"
+            "stars": 341,
+            "updated": "2026-09-24",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7959,9 +8020,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 170,
+            "stars": 180,
             "updated": "2025-09-22",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7981,9 +8042,9 @@
             }
           ],
           "metrics": {
-            "stars": 18,
+            "stars": 20,
             "updated": "2026-03-10",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -7994,9 +8055,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 254,
+            "stars": 257,
             "updated": "2024-05-05",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8009,9 +8070,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 627,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 702,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8022,9 +8083,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 102,
+            "stars": 111,
             "updated": "2025-06-22",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8054,7 +8115,7 @@
           "metrics": {
             "stars": 101,
             "updated": "2025-09-02",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8065,9 +8126,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 344,
+            "stars": 428,
             "updated": "2026-07-04",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8083,9 +8144,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 355,
+            "stars": 368,
             "updated": "2024-08-22",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8103,9 +8164,9 @@
           ],
           "note": "— **note:** platform code is Apache-2.0, but training/challenge content is CC BY-NC-SA-4.0 and requires permission for commercial workshops.",
           "metrics": {
-            "stars": 76,
-            "updated": "2026-04-24",
-            "snapshot": "2026-08-17"
+            "stars": 144,
+            "updated": "2026-10-10",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8123,9 +8184,9 @@
           ],
           "note": "— **note:** deliberately vulnerable training target; run only in an isolated, authorized environment. Live Mode optionally requires Ollama or provider credentials.",
           "metrics": {
-            "stars": 296,
-            "updated": "2026-08-10",
-            "snapshot": "2026-08-17"
+            "stars": 337,
+            "updated": "2026-09-28",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8144,22 +8205,22 @@
             }
           ],
           "metrics": {
-            "stars": 505,
+            "stars": 530,
             "updated": "2025-06-25",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
-          "name": "claude-bug-bounty",
-          "repo": "shuvonsec/claude-bug-bounty",
-          "desc": "Claude Code plugin orchestrating recon → vuln classes → reporting.",
+          "name": "Agentic Bug Hunter (formerly claude-bug-bounty)",
+          "repo": "awarexone/Agentic-Bug-Hunter",
+          "desc": "Claude Code plugin and standalone CLI for model-assisted bug-bounty reconnaissance, vulnerability testing, and reporting.",
           "status": [
             "open_source"
           ],
           "metrics": {
-            "stars": 4236,
-            "updated": "2026-08-10",
-            "snapshot": "2026-08-17"
+            "stars": 5331,
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8170,9 +8231,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 369,
+            "stars": 446,
             "updated": "2026-04-30",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8184,9 +8245,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 1745,
+            "stars": 1754,
             "updated": "2024-10-23",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8215,9 +8276,9 @@
             }
           ],
           "metrics": {
-            "stars": 737,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-17"
+            "stars": 950,
+            "updated": "2026-08-28",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8245,9 +8306,9 @@
             }
           ],
           "metrics": {
-            "stars": 271,
-            "updated": "2026-01-14",
-            "snapshot": "2026-08-17"
+            "stars": 298,
+            "updated": "2026-09-24",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8277,7 +8338,7 @@
           "metrics": {
             "stars": 136,
             "updated": "2026-02-12",
-            "snapshot": "2026-08-24"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8308,9 +8369,9 @@
             }
           ],
           "metrics": {
-            "stars": 107,
+            "stars": 112,
             "updated": "2026-04-26",
-            "snapshot": "2026-08-24"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8339,9 +8400,9 @@
             }
           ],
           "metrics": {
-            "stars": 284,
+            "stars": 291,
             "updated": "2025-09-16",
-            "snapshot": "2026-08-24"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8370,9 +8431,9 @@
             }
           ],
           "metrics": {
-            "stars": 9,
+            "stars": 10,
             "updated": "2026-06-08",
-            "snapshot": "2026-08-30"
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -8394,8 +8455,8 @@
           "note": "**Caveat:** requires AWS IAM permissions and deployed resources, with possible service costs; reports can expose sensitive infrastructure details. A configured prompt-attack filter is not evidence of attack resistance, and standards mappings are not compliance certification.",
           "metrics": {
             "stars": 47,
-            "updated": "2026-10-04",
-            "snapshot": "2026-10-05"
+            "updated": "2026-10-09",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8412,9 +8473,9 @@
           "desc": "Python forensic-triage application that parses disk images and collected Windows/Linux artifacts with Dissect, then produces model-assisted reports through GUI, CLI, REST, or MCP interfaces.",
           "note": "**Caveat:** AGPL-3.0 licensed. Hosted providers receive parsed evidence; local models require separately supplied runtimes and weights. Use evidence copies and independent integrity controls, and keep API access trusted. Outputs are investigation leads requiring examiner verification, not final forensic conclusions.",
           "metrics": {
-            "stars": 48,
+            "stars": 50,
             "updated": "2026-06-13",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8432,9 +8493,9 @@
           "desc": "Analyst-directed incident-response platform combining a Python case-management CLI with SIFT MCP services for evidence processing, draft findings, human review, and report generation.",
           "note": "**Caveat:** alpha; full deployment needs companion SIFT MCP packages and optional forensic VMs or OpenSearch. Loaded evidence may reach configured model providers. Lite has no sandbox or deny rules, tools can execute on the host, and evidence integrity and findings require independent examiner controls.",
           "metrics": {
-            "stars": 106,
-            "updated": "2026-10-04",
-            "snapshot": "2026-10-05"
+            "stars": 110,
+            "updated": "2026-10-11",
+            "snapshot": "2026-10-13"
           },
           "related": [
             {
@@ -8452,9 +8513,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 122,
+            "stars": 123,
             "updated": "2024-01-17",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8479,9 +8540,9 @@
             }
           ],
           "metrics": {
-            "stars": 190,
-            "updated": "2026-08-14",
-            "snapshot": "2026-08-17"
+            "stars": 222,
+            "updated": "2026-10-11",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8508,9 +8569,9 @@
             }
           ],
           "metrics": {
-            "stars": 208,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-17"
+            "stars": 246,
+            "updated": "2026-10-03",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8529,7 +8590,7 @@
           "metrics": {
             "stars": 13,
             "updated": "2025-09-16",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8546,9 +8607,9 @@
             }
           ],
           "metrics": {
-            "stars": 39,
+            "stars": 41,
             "updated": "2025-07-07",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8560,9 +8621,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 317,
+            "stars": 318,
             "updated": "2024-11-02",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8573,44 +8634,41 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 154,
+            "stars": 168,
             "updated": "2026-06-19",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
-          "name": "PhishLLM",
-          "repo": "code-philia/PhishLLM",
-          "desc": "Reference-less phishing detection via LLM brand recognition (USENIX'24).",
+          "name": "PhishVLM (formerly PhishLLM)",
+          "repo": "code-philia/PhishVLM",
+          "desc": "Research phishing detector using vision-language models for brand recognition and credential-page analysis, extending the authors' USENIX Security 2024 PhishLLM work.",
           "status": [
             "research"
           ],
           "flags": [
-            "license_caveat"
+            "license_caveat",
+            "requires_api_key",
+            "model_dependent"
           ],
-          "related": [
-            {
-              "label": "PhishVLM",
-              "url": "https://github.com/code-philia/PhishVLM"
-            }
-          ],
+          "note": "**Caveat:** the documented setup requires Chrome, OpenAI and Google Search credentials; page imagery and search context can reach external services. Model-dependent classifications require validation. No root license was found; confirm reuse terms.",
           "metrics": {
-            "stars": 39,
+            "stars": 40,
             "updated": "2026-06-04",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
           "name": "mcp-dnstwist",
-          "repo": "BurtTheCoder/mcp-dnstwist",
+          "repo": "w0h1v/mcp-dnstwist",
           "desc": "MCP server for dnstwist DNS fuzzing to support typosquatting, phishing, and lookalike-domain analysis.",
           "status": [
             "open_source"
           ],
           "metrics": {
             "stars": 51,
-            "updated": "2025-03-03",
-            "snapshot": "2026-08-17"
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8624,9 +8682,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 525,
-            "updated": "2023-12-11",
-            "snapshot": "2026-08-17"
+            "stars": 533,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         }
       ]
@@ -8642,9 +8700,9 @@
           "license": "MIT",
           "desc": "Focused bibliography of GUI, computer-use, and browser-agent security research, organized by attack surface and defense layer with Chinese-language annotations.",
           "metrics": {
-            "stars": 73,
+            "stars": 77,
             "updated": "2026-10-03",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8655,7 +8713,7 @@
           "metrics": {
             "stars": 23,
             "updated": "2026-10-01",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8664,9 +8722,9 @@
           "repo": "kagnlp/Awesome-Agentic-Security",
           "desc": "Survey bibliography covering agent attacks, defenses, and security applications; an MIT badge is present but no root license file was found.",
           "metrics": {
-            "stars": 57,
+            "stars": 59,
             "updated": "2026-08-24",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8675,9 +8733,9 @@
           "repo": "wearetyomsmnv/Awesome-LLMSecOps",
           "desc": "Resource directory covering LLM architecture, operations, threat modeling, and security; no root license was found.",
           "metrics": {
-            "stars": 162,
+            "stars": 164,
             "updated": "2026-09-27",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8686,9 +8744,9 @@
           "repo": "jassics/awesome-genai-security",
           "desc": "GPL-3.0 collection of GenAI and agentic-security references, tutorials, labs, and testing resources; linked artifacts retain their own terms.",
           "metrics": {
-            "stars": 78,
-            "updated": "2026-09-29",
-            "snapshot": "2026-10-05"
+            "stars": 82,
+            "updated": "2026-10-11",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8697,9 +8755,9 @@
           "repo": "frangelbarrera/Awesome-Hacking-with-AI",
           "desc": "Directory of AI-assisted security and AI-system security resources covering agent safety, MCP, red teaming, and detection engineering; linked projects require separate review.",
           "metrics": {
-            "stars": 28,
+            "stars": 38,
             "updated": "2026-10-02",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8708,9 +8766,9 @@
           "repo": "anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection",
           "desc": "AI-security learning roadmap and resource directory that distinguishes historical and unverified material; no root license was found.",
           "metrics": {
-            "stars": 801,
+            "stars": 807,
             "updated": "2026-09-19",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8719,9 +8777,9 @@
           "repo": "fevziegeyurtsevenler/awesome-ai-security-tr",
           "desc": "Turkish-language annotated directory of prompt-injection, red-teaming, guardrail, agent, MCP, and RAG security resources under CC BY 4.0; link checks do not validate security claims.",
           "metrics": {
-            "stars": 13,
-            "updated": "2026-08-28",
-            "snapshot": "2026-10-05"
+            "stars": 14,
+            "updated": "2026-10-06",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8730,9 +8788,9 @@
           "repo": "Joe-B-Security/awesome-prompt-injection",
           "desc": "CC0 resource list focused on prompt injection and related machine-learning security references.",
           "metrics": {
-            "stars": 666,
+            "stars": 682,
             "updated": "2026-09-11",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8743,7 +8801,7 @@
           "metrics": {
             "stars": 13,
             "updated": "2026-06-20",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8752,9 +8810,9 @@
           "repo": "Arcanum-Sec/ai-sec-resources",
           "desc": "Categorized directory of AI-security labs and competitions; no root license was found, and external availability or free access is not guaranteed.",
           "metrics": {
-            "stars": 513,
+            "stars": 517,
             "updated": "2026-07-03",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8763,9 +8821,9 @@
           "repo": "mcp-security-project/awesome-agentic-mcp-security",
           "desc": "CC0 collection of agentic-AI and MCP security resources.",
           "metrics": {
-            "stars": 21,
+            "stars": 23,
             "updated": "2026-09-26",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8774,9 +8832,9 @@
           "repo": "fishman/awesome-agent-sandbox",
           "desc": "Directory of agent sandbox runtimes and comparisons; no root license was found, and performance or security comparisons are not independently verified.",
           "metrics": {
-            "stars": 18,
+            "stars": 21,
             "updated": "2026-07-07",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8785,9 +8843,9 @@
           "repo": "arjan/awesome-agent-sandboxes",
           "desc": "Directory of self-hosted and cloud code-execution sandboxes for AI agents; no root license was found, and listed products offer differing isolation boundaries.",
           "metrics": {
-            "stars": 49,
+            "stars": 51,
             "updated": "2026-08-19",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8796,9 +8854,9 @@
           "repo": "CryptoAILab/Awesome-LM-SSP",
           "desc": "Apache-2.0 bibliography of language and multimodal model safety, security, and privacy research; linked publications, models, and datasets retain their own licenses.",
           "metrics": {
-            "stars": 2082,
+            "stars": 2085,
             "updated": "2026-09-02",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8809,7 +8867,7 @@
           "metrics": {
             "stars": 1680,
             "updated": "2026-03-08",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8818,9 +8876,9 @@
           "repo": "wearetyomsmnv/Awesome-LLM-agent-Security",
           "desc": "Unlicense bibliography of LLM-agent security research, attacks, and vulnerabilities; linked papers and code retain their own terms.",
           "metrics": {
-            "stars": 58,
+            "stars": 59,
             "updated": "2026-07-11",
-            "snapshot": "2026-10-05"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8830,9 +8888,9 @@
           "license": "Apache-2.0",
           "desc": "Focused research index of text and multimodal guardrail models, moderation datasets, jailbreak studies, evaluation resources, and runtime frameworks; linked artifacts retain their own terms.",
           "metrics": {
-            "stars": 31,
-            "updated": "2026-09-03",
-            "snapshot": "2026-10-05"
+            "stars": 36,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8841,9 +8899,9 @@
           "repo": "Ed-Marcavage/awesome-security-agent-harnesses",
           "desc": "Focused CC0 catalog of vulnerability-discovery and pentest agent harnesses, security skills, sandboxes, MCP integrations, benchmarks, and evaluation research.",
           "metrics": {
-            "stars": 22,
-            "updated": "2026-09-04",
-            "snapshot": "2026-09-21"
+            "stars": 28,
+            "updated": "2026-10-04",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8855,9 +8913,9 @@
             "archived"
           ],
           "metrics": {
-            "stars": 488,
+            "stars": 483,
             "updated": "2024-04-08",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8866,9 +8924,9 @@
           "repo": "tmylla/Awesome-LLM4Cybersecurity",
           "desc": "600+ papers on LLMs for cybersecurity.",
           "metrics": {
-            "stars": 1748,
-            "updated": "2026-07-08",
-            "snapshot": "2026-08-17"
+            "stars": 1786,
+            "updated": "2026-08-20",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8877,9 +8935,9 @@
           "repo": "ElNiak/awesome-ai-cybersecurity",
           "desc": "Broad AI-for-security collection.",
           "metrics": {
-            "stars": 151,
-            "updated": "2026-08-13",
-            "snapshot": "2026-08-17"
+            "stars": 159,
+            "updated": "2026-10-07",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8888,9 +8946,9 @@
           "repo": "Ashfaaq98/awesome-genai-cyberhub",
           "desc": "GenAI-driven cybersecurity resources.",
           "metrics": {
-            "stars": 54,
-            "updated": "2026-08-07",
-            "snapshot": "2026-08-17"
+            "stars": 59,
+            "updated": "2026-10-11",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8899,9 +8957,9 @@
           "repo": "gmh5225/awesome-ai-security",
           "desc": "For pentesters, bug hunters, and researchers.",
           "metrics": {
-            "stars": 39,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 57,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8910,9 +8968,9 @@
           "repo": "ottosulin/awesome-ai-security",
           "desc": "AI security resources.",
           "metrics": {
-            "stars": 1397,
-            "updated": "2026-08-16",
-            "snapshot": "2026-08-17"
+            "stars": 1542,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8921,9 +8979,9 @@
           "repo": "TalEliyahu/Awesome-AI-Security",
           "desc": "AI security resources.",
           "metrics": {
-            "stars": 853,
+            "stars": 883,
             "updated": "2026-07-18",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8932,9 +8990,9 @@
           "repo": "AmanPriyanshu/Awesome-AI-For-Security",
           "desc": "AI-for-security tools, papers, and datasets.",
           "metrics": {
-            "stars": 146,
-            "updated": "2026-08-13",
-            "snapshot": "2026-08-17"
+            "stars": 150,
+            "updated": "2026-10-05",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8943,9 +9001,9 @@
           "repo": "raphabot/awesome-cybersecurity-agentic-ai",
           "desc": "Agentic-AI cybersecurity tools and security MCP servers.",
           "metrics": {
-            "stars": 536,
-            "updated": "2026-06-28",
-            "snapshot": "2026-08-17"
+            "stars": 603,
+            "updated": "2026-10-10",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8954,9 +9012,9 @@
           "repo": "ProjectRecon/awesome-ai-agents-security",
           "desc": "Focused map of AI-agent security resources across runtime protection, red-teaming scanners, static analysis, sandboxing, guardrails, benchmarks, and identity.",
           "metrics": {
-            "stars": 63,
+            "stars": 75,
             "updated": "2026-06-12",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8965,9 +9023,9 @@
           "repo": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
           "desc": "Offensive AI-agent landscape covering open-source pentest/red-team agents, offensive/security-specialized models, papers, benchmarks, and commercial tools.",
           "metrics": {
-            "stars": 214,
-            "updated": "2026-07-20",
-            "snapshot": "2026-08-17"
+            "stars": 356,
+            "updated": "2026-09-10",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8976,9 +9034,9 @@
           "repo": "webpro255/awesome-ai-agent-attacks",
           "desc": "Sourced timeline of real AI-agent security incidents, breaches, vulnerabilities, and attack techniques.",
           "metrics": {
-            "stars": 65,
-            "updated": "2026-08-11",
-            "snapshot": "2026-08-17"
+            "stars": 81,
+            "updated": "2026-10-05",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8987,9 +9045,9 @@
           "repo": "Zero0x00/Ai-Security-radar-",
           "desc": "Daily-updated AI/LLM/MCP/RAG security repository radar with category, license, stars, and quality/relevance metadata.",
           "metrics": {
-            "stars": 5,
-            "updated": "2026-08-17",
-            "snapshot": "2026-08-17"
+            "stars": 10,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -8998,9 +9056,9 @@
           "repo": "RiccardoBiosas/awesome-MLSecOps",
           "desc": "Curated MLSecOps resources spanning adversarial ML, LLM security, AI red teaming, model scanning, supply-chain protection, and MLOps pipeline security.",
           "metrics": {
-            "stars": 450,
-            "updated": "2026-08-15",
-            "snapshot": "2026-08-17"
+            "stars": 475,
+            "updated": "2026-10-12",
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9009,9 +9067,9 @@
           "repo": "enguard-ai/awesome-ai-guardrails",
           "desc": "Catalog of AI guardrail models, tools, organizations, datasets, and papers, with useful Hugging Face model coverage.",
           "metrics": {
-            "stars": 64,
+            "stars": 107,
             "updated": "2026-07-30",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9022,7 +9080,7 @@
           "metrics": {
             "stars": 109,
             "updated": "2026-02-05",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9031,9 +9089,9 @@
           "repo": "Puliczek/awesome-mcp-security",
           "desc": "MCP security resources, tools, writeups, and server/client risk references.",
           "metrics": {
-            "stars": 729,
+            "stars": 743,
             "updated": "2026-03-03",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9044,7 +9102,7 @@
           "metrics": {
             "stars": 170,
             "updated": "2026-02-06",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9053,9 +9111,9 @@
           "repo": "stratosphereips/awesome-ml-privacy-attacks",
           "desc": "Machine-learning privacy-attack papers and resources.",
           "metrics": {
-            "stars": 640,
+            "stars": 643,
             "updated": "2024-03-18",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9064,9 +9122,9 @@
           "repo": "jivoi/awesome-ml-for-cybersecurity",
           "desc": "Large classic list of machine-learning-for-cybersecurity resources (stale-ish but still useful).",
           "metrics": {
-            "stars": 9290,
+            "stars": 9473,
             "updated": "2024-04-11",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9075,9 +9133,9 @@
           "repo": "awsm-research/Awesome-AI4DevSecOps",
           "desc": "Taxonomy of AI-driven security solutions for DevSecOps.",
           "metrics": {
-            "stars": 19,
+            "stars": 20,
             "updated": "2025-07-02",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9086,9 +9144,9 @@
           "repo": "corca-ai/awesome-llm-security",
           "desc": "Securing LLMs.",
           "metrics": {
-            "stars": 1683,
+            "stars": 1711,
             "updated": "2025-08-20",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9097,9 +9155,9 @@
           "repo": "cckuailong/awesome-gpt-security",
           "desc": "GPT/LLM security tools and cases.",
           "metrics": {
-            "stars": 669,
+            "stars": 673,
             "updated": "2026-07-24",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9108,9 +9166,9 @@
           "repo": "hslatman/awesome-threat-intelligence",
           "desc": "Classic CTI list (pairs with the AI-CTI section).",
           "metrics": {
-            "stars": 10541,
+            "stars": 10726,
             "updated": "2026-05-31",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9119,9 +9177,9 @@
           "repo": "hysnsec/awesome-threat-modelling",
           "desc": "General-purpose threat modeling list — methodologies and non-AI tools (Threat Dragon, pytm, Threagile); dormant since 2023 but a solid reference.",
           "metrics": {
-            "stars": 1793,
+            "stars": 1828,
             "updated": "2023-07-15",
-            "snapshot": "2026-08-17"
+            "snapshot": "2026-10-13"
           }
         },
         {
@@ -9130,9 +9188,9 @@
           "repo": "huhusmang/Awesome-LLMs-for-Vulnerability-Detection",
           "desc": "Focused, continuously updated index of LLM-based software-vulnerability detection research across function, repository, agentic, and smart-contract analysis, including datasets, benchmarks, and surveys.",
           "metrics": {
-            "stars": 1239,
-            "updated": "2026-08-16",
-            "snapshot": "2026-08-17"
+            "stars": 1485,
+            "updated": "2026-10-13",
+            "snapshot": "2026-10-13"
           }
         }
       ]

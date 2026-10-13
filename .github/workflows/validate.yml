@@ -17,5 +17,7 @@ jobs:
           python-version: "3.x"
       - name: Compile generator
         run: python3 -m py_compile gen_readme.py
+      - name: Test metrics updater (offline)
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Check generated README
         run: python3 gen_readme.py --check
